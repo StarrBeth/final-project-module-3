@@ -409,7 +409,7 @@ FEATURES ↓
 }
 
 .feature__text {
-    margin-top: 8px;
+    margin-top: -8px;
     margin-left: 16px;
 }
 
@@ -1309,9 +1309,6 @@ MOBILE RESPONSIVENESS ↓
     .feature__row {
         padding: 32px 8px;
         margin: 0 16px;
-    }
-    .feature__text {
-        margin-top: -8px;
     }
     .feature__title {
         line-height: 1;
