@@ -1310,6 +1310,12 @@ MOBILE RESPONSIVENESS ↓
         padding: 32px 8px;
         margin: 0 16px;
     }
+    .feature__text {
+        margin-top: -8px;
+    }
+    .feature__title {
+        line-height: 1;
+    }
     .feature__para {
         max-width: none;
     }
@@ -1407,6 +1413,9 @@ MOBILE RESPONSIVENESS ↓
     }
     .section__para {
         font-size: 14px;
+    }
+    .value__title {
+        justify-content: center;
     }
     .step {
         flex-direction: column;
