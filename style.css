@@ -1310,6 +1310,9 @@ MOBILE RESPONSIVENESS ↓
         padding: 32px 8px;
         margin: 0 16px;
     }
+    .feature__para {
+        max-width: none;
+    }
     .quality__description {
         margin-right: 0px;
         padding-right: 48px;
@@ -1319,6 +1322,9 @@ MOBILE RESPONSIVENESS ↓
     }
     .section__para {
         font-family: 16px;
+    }
+    .value {
+        margin-top: 2.5rem;
     }
     .values__list {
         max-width: 20rem;
@@ -1371,6 +1377,7 @@ MOBILE RESPONSIVENESS ↓
     }
     .features {
         justify-content: center;
+        flex-direction: column;
     }
     .feature {
         width: auto;
@@ -1486,6 +1493,18 @@ MOBILE RESPONSIVENESS ↓
         flex-direction: column;
         align-items: center;
         text-align: center;
+    }
+    .feature__text {
+        margin-left: 0px;
+        margin-top: 16px;
+    }
+    .feature__title {
+        letter-spacing: 0.025em;
+        line-height: 1;
+    }
+    .feature__para {
+        margin-top: 4px;
+        line-height: 2;
     }
     .section__title {
         line-height: 1.25;
